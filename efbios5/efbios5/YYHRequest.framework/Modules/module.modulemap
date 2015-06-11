@@ -1,0 +1,10 @@
+framework module YYHRequest {
+  umbrella header "YYHRequest.h"
+
+  export *
+  module * { export * }
+}
+
+module YYHRequest.Swift {
+    header "YYHRequest-Swift.h"
+}
